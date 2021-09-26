@@ -1,0 +1,13 @@
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\bin\Debug\net6.0\Abrisham.Graphql.Types.deps.json
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\bin\Debug\net6.0\Abrisham.Graphql.Types.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\bin\Debug\net6.0\ref\Abrisham.Graphql.Types.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\bin\Debug\net6.0\Abrisham.Graphql.Types.pdb
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.ImplicitNamespaceImports.cs
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\ref\Abrisham.Graphql.Types.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.pdb

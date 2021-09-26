@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\bin\Debug\net6.0\Abrisham.Database.deps.json
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\bin\Debug\net6.0\Abrisham.Database.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\bin\Debug\net6.0\Abrisham.Database.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\bin\Debug\net6.0\ref\Abrisham.Database.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\bin\Debug\net6.0\Abrisham.Database.pdb
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.ImplicitNamespaceImports.cs
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\ref\Abrisham.Database.dll
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.pdb
+C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.genruntimeconfig.cache
