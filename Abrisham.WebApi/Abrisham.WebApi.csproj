@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="GraphQL" Version="4.6.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="5.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,6 +18,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Abrisham.Database\Abrisham.Database.csproj" />
+    <ProjectReference Include="..\Abrisham.Graphql.Types\Abrisham.Graphql.Types.csproj" />
+    <ProjectReference Include="..\Abrisham.Utilities\Abrisham.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

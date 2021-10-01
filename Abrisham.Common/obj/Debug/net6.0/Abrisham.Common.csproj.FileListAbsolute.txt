@@ -1,0 +1,13 @@
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\bin\Debug\net6.0\Abrisham.Common.deps.json
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\bin\Debug\net6.0\Abrisham.Common.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\bin\Debug\net6.0\ref\Abrisham.Common.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\bin\Debug\net6.0\Abrisham.Common.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.GlobalUsings.g.cs
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.csproj.AssemblyReference.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.AssemblyInfoInputs.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.AssemblyInfo.cs
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.csproj.CoreCompileInputs.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\ref\Abrisham.Common.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Common\obj\Debug\net6.0\Abrisham.Common.pdb

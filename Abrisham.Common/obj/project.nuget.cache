@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "tgnqA2RHIGLFGFXmja0aaB9iqG3ooJyi67HBH4WK/yA0ASoN8wF7aNRQruPDqPi6xbRVtWXxsovVmGUo6N9kZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Morteza\\.nuget\\packages\\hotchocolate.abstractions\\12.0.1\\hotchocolate.abstractions.12.0.1.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\hotchocolate.language\\12.0.1\\hotchocolate.language.12.0.1.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\hotchocolate.language.syntaxtree\\12.0.1\\hotchocolate.language.syntaxtree.12.0.1.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\hotchocolate.language.utf8\\12.0.1\\hotchocolate.language.utf8.12.0.1.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\hotchocolate.language.visitors\\12.0.1\\hotchocolate.language.visitors.12.0.1.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\microsoft.extensions.objectpool\\3.1.4\\microsoft.extensions.objectpool.3.1.4.nupkg.sha512",
+    "C:\\Users\\Morteza\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

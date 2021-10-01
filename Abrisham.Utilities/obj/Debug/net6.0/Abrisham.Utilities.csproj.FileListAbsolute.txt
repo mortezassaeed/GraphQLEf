@@ -11,3 +11,15 @@ C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Utilities\obj\Debug\net6.0\Abrish
 C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.dll
 C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Utilities\obj\Debug\net6.0\ref\Abrisham.Utilities.dll
 C:\Users\Lenovo\source\repos\Abrisham\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\bin\Debug\net6.0\Abrisham.Utilities.deps.json
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\bin\Debug\net6.0\Abrisham.Utilities.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\bin\Debug\net6.0\ref\Abrisham.Utilities.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\bin\Debug\net6.0\Abrisham.Utilities.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.AssemblyInfoInputs.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.AssemblyInfo.cs
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\ref\Abrisham.Utilities.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Utilities\obj\Debug\net6.0\Abrisham.Utilities.csproj.AssemblyReference.cache

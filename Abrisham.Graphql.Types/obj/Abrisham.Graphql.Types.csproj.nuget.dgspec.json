@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\Abrisham\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj": {}
+    "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\Abrisham\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj": {
+    "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Abrisham\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj",
-        "projectName": "Abrisham.Graphql.Types",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Abrisham\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Abrisham\\Abrisham.Graphql.Types\\obj\\",
+        "projectUniqueName": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj",
+        "projectName": "Abrisham.Common",
+        "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj",
+        "packagesPath": "C:\\Users\\Morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.1.24:8081/repository/nuget-staging/": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -44,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.Abstractions": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +60,166 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj",
+        "projectName": "Abrisham.Database",
+        "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj",
+        "packagesPath": "C:\\Users\\Morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj",
+        "projectName": "Abrisham.Graphql.Types",
+        "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Graphql.Types\\Abrisham.Graphql.Types.csproj",
+        "packagesPath": "C:\\Users\\Morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Graphql.Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj"
+              },
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.8, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

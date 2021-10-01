@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "48ed2572-d22c-47f8-8156-47aa966fdcc4": {
+      "ProjectGuid": "48ed2572-d22c-47f8-8156-47aa966fdcc4",
+      "DisplayName": "Abrisham.Utilities",
+      "ColorIndex": 0
+    },
+    "f86a8412-f4fc-4cff-97a5-6054d6e95362": {
+      "ProjectGuid": "f86a8412-f4fc-4cff-97a5-6054d6e95362",
+      "DisplayName": "Abrisham.WebApi",
+      "ColorIndex": 1
+    },
+    "4d6f352a-b9c6-4090-8a59-f4b862be5767": {
+      "ProjectGuid": "4d6f352a-b9c6-4090-8a59-f4b862be5767",
+      "DisplayName": "Abrisham.Database",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0a897478-edca-429c-8aca-1d33d7019718": {
+      "ProjectGuid": "0a897478-edca-429c-8aca-1d33d7019718",
+      "DisplayName": "Abrisham.Graphql.Types",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
