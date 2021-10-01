@@ -21,16 +21,16 @@ namespace Abrisham.Graphql.Types.Platform
 
             descriptor
                 .Field(m => m.Commands)
-                .ResolveWith<Resolvers>(p => p.GetCommand(default!, default!))
-                .UseDbContext<AbrishamDbContext>()
+                //.ResolveWith<Resolvers>(p => p.GetCommand(default!, default!))
+                .Resolve(() =>  new List<Command>() { new Command() { HowTo = "aa" , Id = 1 , CommandLine = "sdsd", PlatformId = 1  } }  )
+              
                 .Description("this is the list of avalible commands for this platform");
 
             base.Configure(descriptor);
         }
-
-
+         
         private class Resolvers { 
-            public IQueryable<Command> GetCommand(Abrisham.Common.Models.Platform platform, [Service] AbrishamDbContext context)
+            public IQueryable<Command> GetCommand(Abrisham.Common.Models.Platform platform, [ScopedService] AbrishamDbContext context)
                 => context.Commands.Where(c => c.PlatformId == platform.Id);    
         }
 

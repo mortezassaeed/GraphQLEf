@@ -12,15 +12,15 @@ namespace Abrisham.Graphql.Types
 {
     public class Query
     {
-        //[UseDbContext(typeof(AbrishamDbContext))]
+        [UseDbContext(typeof(AbrishamDbContext))]
         [UseProjection]
-        public IQueryable<Abrisham.Common.Models.Platform> GetPlatform([Service] AbrishamDbContext context){
+        public IQueryable<Abrisham.Common.Models.Platform> GetPlatform([ScopedService] AbrishamDbContext context){
             return context.Platforms;
         }
 
-
+        [UseDbContext(typeof(AbrishamDbContext))]
         [UseProjection]
-        public IQueryable<Command> GetCommand([Service] AbrishamDbContext context)
+        public IQueryable<Command> GetCommand([ScopedService] AbrishamDbContext context)
         {
             return context.Commands;
         }

@@ -12,26 +12,26 @@ namespace Abrisham.Database
 {
     public class AbrishamDbContext : DbContext
     {
-        public AbrishamDbContext() { }
+        //public AbrishamDbContext() { }
 
         public AbrishamDbContext(DbContextOptions<AbrishamDbContext> options) : base(options)
         {
             
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)   
-        {
-            var conf = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .Build();
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)   
+        //{
+        //    var conf = new ConfigurationBuilder()
+        //        .SetBasePath(Directory.GetCurrentDirectory())
+        //        .AddJsonFile("appsettings.json")
+        //        .Build();
 
-            var connectionString = conf.GetConnectionString("Abrisham");
+        //    var connectionString = conf.GetConnectionString("Abrisham");
 
-            optionsBuilder.UseSqlServer(connectionString);
+        //    optionsBuilder.UseSqlServer(connectionString);
 
-            base.OnConfiguring(optionsBuilder);
-        }
+        //    base.OnConfiguring(optionsBuilder);
+        //}
 
         public DbSet<Platform> Platforms { get; set; }
         public DbSet<Command> Commands { get; set; }

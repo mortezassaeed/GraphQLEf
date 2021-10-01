@@ -167,6 +167,6 @@ C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\Abrisha
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\GraphQL.Server.Ui.Voyager.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\HotChocolate.Data.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\HotChocolate.Data.EntityFramework.dll
-C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\obj\Debug\net6.0\Abrisham.WebApi.csproj.CopyComplete
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\Abrisham.Common.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\bin\Debug\net6.0\Abrisham.Common.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.WebApi\obj\Debug\net6.0\Abrisham.WebApi.csproj.CopyComplete

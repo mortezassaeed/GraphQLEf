@@ -27,4 +27,3 @@ C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Graphql.Types\bin\Debug\net6.0\
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.csproj.AssemblyReference.cache
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Graphql.Types\bin\Debug\net6.0\Abrisham.Common.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Graphql.Types\bin\Debug\net6.0\Abrisham.Common.pdb
-C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Graphql.Types\obj\Debug\net6.0\Abrisham.Graphql.Types.csproj.CopyComplete

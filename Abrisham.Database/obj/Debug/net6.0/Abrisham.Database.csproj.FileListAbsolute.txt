@@ -29,4 +29,3 @@ C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Database\obj\Debug\net6.0\Abris
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.csproj.AssemblyReference.cache
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Database\bin\Debug\net6.0\Abrisham.Common.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Database\bin\Debug\net6.0\Abrisham.Common.pdb
-C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.Database\obj\Debug\net6.0\Abrisham.Database.csproj.CopyComplete
