@@ -7,9 +7,32 @@ using System.Threading.Tasks;
 using Abrisham.Common.Models;
 using Abrisham.Database;
 using HotChocolate;
+using Abrisham.DataAccess.Concrete;
+using Abrisham.DataAccess.Interface;
+using Microsoft.Extensions.Logging;
+using Abrisham.Common.Models;
 
 namespace Abrisham.Graphql.Types.Platform
 {
+
+
+    public class Resolvers
+    {
+        IRepository<Command> _commandrepository;
+        ILogger<Resolvers> _logger;
+        public Resolvers(IRepository<Command> commandrepository, ILogger<Resolvers> logger)
+        {
+            _commandrepository = commandrepository;
+            _logger = logger;
+        }
+
+        public IQueryable<Command> GetCommands([Parent]Abrisham.Common.Models.Platform platform , [Service] IRepository<Command> commandRepo1)
+        {
+            return commandRepo1.Get().Where(m => m.PlatformId == platform.Id);
+        }
+
+    }
+
     public class PlatformType : ObjectType<Abrisham.Common.Models.Platform>
     {
         protected override void Configure(IObjectTypeDescriptor<Common.Models.Platform> descriptor)
@@ -21,18 +44,13 @@ namespace Abrisham.Graphql.Types.Platform
 
             descriptor
                 .Field(m => m.Commands)
-                //.ResolveWith<Resolvers>(p => p.GetCommand(default!, default!))
-                .Resolve(() =>  new List<Command>() { new Command() { HowTo = "aa" , Id = 1 , CommandLine = "sdsd", PlatformId = 1  } }  )
-              
+                .Type<HotChocolate.Types.ListType<CommandType>>()
+                //.ResolveWith<Resolvers>(p => p.GetCommands(default!,default!))
                 .Description("this is the list of avalible commands for this platform");
 
             base.Configure(descriptor);
         }
-         
-        private class Resolvers { 
-            public IQueryable<Command> GetCommand(Abrisham.Common.Models.Platform platform, [ScopedService] AbrishamDbContext context)
-                => context.Commands.Where(c => c.PlatformId == platform.Id);    
-        }
 
+        
     }
 }

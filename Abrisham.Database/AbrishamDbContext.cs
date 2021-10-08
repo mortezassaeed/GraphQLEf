@@ -35,6 +35,7 @@ namespace Abrisham.Database
 
         public DbSet<Platform> Platforms { get; set; }
         public DbSet<Command> Commands { get; set; }
+        public DbSet<Result> Results { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -45,11 +46,20 @@ namespace Abrisham.Database
                 .WithOne(m => m.Platform)
                 .HasForeignKey(m => m.PlatformId);
 
-
             modelBuilder.Entity<Command>()
                 .HasOne(m => m.Platform)
                 .WithMany(m => m.Commands)
-                .HasForeignKey(m => m.PlatformId);
+                .HasForeignKey(m => m.PlatformId);  
+
+            modelBuilder.Entity<Command>()
+            .HasMany(m => m.Results)
+            .WithOne(m => m.Command)
+            .HasForeignKey(m => m.CommandId);
+
+            modelBuilder.Entity<Result>()
+            .HasOne(m => m.Command)
+            .WithMany(m => m.Results)
+            .HasForeignKey(m => m.CommandId);
 
             base.OnModelCreating(modelBuilder);
         }

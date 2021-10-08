@@ -9,6 +9,7 @@
       "Abrisham.Graphql.Types/1.0.0": {
         "dependencies": {
           "Abrisham.Common": "1.0.0",
+          "Abrisham.DataAccess": "1.0.0",
           "Abrisham.Database": "1.0.0",
           "HotChocolate.AspNetCore": "11.3.8",
           "HotChocolate.Data.EntityFramework": "12.0.1"
@@ -1223,6 +1224,15 @@
           "Abrisham.Common.dll": {}
         }
       },
+      "Abrisham.DataAccess/1.0.0": {
+        "dependencies": {
+          "Abrisham.Common": "1.0.0",
+          "Abrisham.Database": "1.0.0"
+        },
+        "runtime": {
+          "Abrisham.DataAccess.dll": {}
+        }
+      },
       "Abrisham.Database/1.0.0": {
         "dependencies": {
           "Abrisham.Common": "1.0.0",
@@ -2105,6 +2115,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Abrisham.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Abrisham.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

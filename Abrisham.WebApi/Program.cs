@@ -9,7 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 using Microsoft.EntityFrameworkCore.Infrastructure;
-
+using Abrisham.DataAccess.Interface;
+using Abrisham.Common.Models;
+using Abrisham.DataAccess.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,10 +32,17 @@ builder.Services.AddPooledDbContextFactory<AbrishamDbContext>(options =>
 //    optionsBuilder.UseInternalServiceProvider(serviceProvider);
 //});
 
-
+builder.Services.AddScoped<IRepository<Platform>, PlatformRepository>();
+builder.Services.AddScoped<IRepository<Command>, CommandRepository>();
+builder.Services.AddScoped<IRepository<Result>, ResultRepository>();
 builder.Services.AddGraphQLServer()
                 .AddQueryType<Query>()
+                .AddMutationType<Mutation>()
                 .AddType<PlatformType>()
+                .AddType<CommandType>()
+                .AddType<ResultType>()
+                .AddFiltering()
+                .AddSorting()
                 .AddProjections();
 
 var app = builder.Build();

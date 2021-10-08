@@ -22,3 +22,9 @@ C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\Abr
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\Abrisham.DataAccess.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\ref\Abrisham.DataAccess.dll
 C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\Abrisham.DataAccess.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\bin\Debug\net6.0\Abrisham.Common.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\bin\Debug\net6.0\Abrisham.Database.dll
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\bin\Debug\net6.0\Abrisham.Common.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\bin\Debug\net6.0\Abrisham.Database.pdb
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\Abrisham.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Morteza\source\graph\GraphQLEf\Abrisham.DataAccess\obj\Debug\net6.0\Abrisham.DataAccess.csproj.CopyComplete

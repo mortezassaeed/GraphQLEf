@@ -64,6 +64,67 @@
         }
       }
     },
+    "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj",
+        "projectName": "Abrisham.DataAccess",
+        "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Morteza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Morteza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj"
+              },
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -178,6 +239,9 @@
             "projectReferences": {
               "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj": {
                 "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Common\\Abrisham.Common.csproj"
+              },
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj"
               },
               "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
                 "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj"
@@ -307,6 +371,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj"
+              },
               "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
                 "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj"
               },

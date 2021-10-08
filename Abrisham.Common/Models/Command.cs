@@ -18,6 +18,7 @@ namespace Abrisham.Common.Models
         [Required]
         public int PlatformId { get; set; }
         public Platform Platform { get; set; }
+        public ICollection<Result> Results { get; set; }
 
     }
 }

@@ -2628,6 +2628,20 @@
           "bin/placeholder/Abrisham.Common.dll": {}
         }
       },
+      "Abrisham.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Abrisham.Common": "1.0.0",
+          "Abrisham.Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Abrisham.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abrisham.DataAccess.dll": {}
+        }
+      },
       "Abrisham.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2650,6 +2664,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Abrisham.Common": "1.0.0",
+          "Abrisham.DataAccess": "1.0.0",
           "Abrisham.Database": "1.0.0",
           "HotChocolate.AspNetCore": "11.3.8",
           "HotChocolate.Data.EntityFramework": "12.0.1"
@@ -8535,6 +8550,11 @@
       "path": "../Abrisham.Common/Abrisham.Common.csproj",
       "msbuildProject": "../Abrisham.Common/Abrisham.Common.csproj"
     },
+    "Abrisham.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Abrisham.DataAccess/Abrisham.DataAccess.csproj",
+      "msbuildProject": "../Abrisham.DataAccess/Abrisham.DataAccess.csproj"
+    },
     "Abrisham.Database/1.0.0": {
       "type": "project",
       "path": "../Abrisham.Database/Abrisham.Database.csproj",
@@ -8553,6 +8573,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Abrisham.DataAccess >= 1.0.0",
       "Abrisham.Database >= 1.0.0",
       "Abrisham.Graphql.Types >= 1.0.0",
       "Abrisham.Utilities >= 1.0.0",
@@ -8590,6 +8611,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.DataAccess\\Abrisham.DataAccess.csproj"
+            },
             "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj": {
               "projectPath": "C:\\Users\\Morteza\\source\\graph\\GraphQLEf\\Abrisham.Database\\Abrisham.Database.csproj"
             },

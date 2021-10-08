@@ -15,7 +15,7 @@ namespace Abrisham.Common.Models
         [Required]
         //[GraphQLDescription("this field is for repersent your platfrom name")]
         public string Name { get; set; }
-        public string LicenseKey { get; set; }
+        public string? LicenseKey { get; set; }
         public ICollection<Command> Commands { get; set; }
 
     }

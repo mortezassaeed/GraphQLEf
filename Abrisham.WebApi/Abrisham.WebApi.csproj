@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Abrisham.DataAccess\Abrisham.DataAccess.csproj" />
     <ProjectReference Include="..\Abrisham.Database\Abrisham.Database.csproj" />
     <ProjectReference Include="..\Abrisham.Graphql.Types\Abrisham.Graphql.Types.csproj" />
     <ProjectReference Include="..\Abrisham.Utilities\Abrisham.Utilities.csproj" />

@@ -25,7 +25,17 @@
       "ProjectGuid": "0a897478-edca-429c-8aca-1d33d7019718",
       "DisplayName": "Abrisham.Graphql.Types",
       "ColorIndex": 3
+    },
+    "0a2678eb-76b0-4da3-8771-62c9d46c62ba": {
+      "ProjectGuid": "0a2678eb-76b0-4da3-8771-62c9d46c62ba",
+      "DisplayName": "Abrisham.Common",
+      "ColorIndex": 4
+    },
+    "4914b2d1-5b88-4b4f-ae51-c3f51f2dd78c": {
+      "ProjectGuid": "4914b2d1-5b88-4b4f-ae51-c3f51f2dd78c",
+      "DisplayName": "Abrisham.DataAccess",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }

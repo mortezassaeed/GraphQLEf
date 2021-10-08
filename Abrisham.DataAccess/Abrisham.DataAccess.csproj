@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Abrisham.Common\Abrisham.Common.csproj" />
+    <ProjectReference Include="..\Abrisham.Database\Abrisham.Database.csproj" />
+  </ItemGroup>
+
 </Project>

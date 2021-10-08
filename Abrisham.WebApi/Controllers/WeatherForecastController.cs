@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Abrisham.Common.Models;
+using Abrisham.Database;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -9,16 +12,19 @@ namespace Abrisham.WebApi.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
+
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
+    private readonly IDbContextFactory<AbrishamDbContext> _contextFactory;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IDbContextFactory<AbrishamDbContext> contextFactory)
     {
         _logger = logger;
+        _contextFactory = contextFactory;
     }
 
     [HttpGet]
@@ -32,4 +38,13 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    [HttpGet("GetCommand")]
+    public IEnumerable<Command> GetCommand()
+    {
+        var context = _contextFactory.CreateDbContext();
+        return context.Commands;
+    }
+
+
 }

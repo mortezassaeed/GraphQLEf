@@ -14,15 +14,28 @@ namespace Abrisham.Graphql.Types
     {
         [UseDbContext(typeof(AbrishamDbContext))]
         [UseProjection]
+        [UseFiltering]
+        [UseSorting]
         public IQueryable<Abrisham.Common.Models.Platform> GetPlatform([ScopedService] AbrishamDbContext context){
             return context.Platforms;
         }
 
         [UseDbContext(typeof(AbrishamDbContext))]
         [UseProjection]
+        [UseFiltering]
+        [UseSorting]
         public IQueryable<Command> GetCommand([ScopedService] AbrishamDbContext context)
         {
             return context.Commands;
+        }
+
+        [UseDbContext(typeof(AbrishamDbContext))]
+        [UseProjection]
+        [UseFiltering]
+        [UseSorting]
+        public IQueryable<Result> GetResult([ScopedService] AbrishamDbContext context)
+        {
+            return context.Results;
         }
     }
 }

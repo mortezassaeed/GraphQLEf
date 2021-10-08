@@ -18,7 +18,7 @@ namespace Abrisham.Database.Migrations
                 .HasAnnotation("ProductVersion", "5.0.10")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Abrisham.Database.Models.Command", b =>
+            modelBuilder.Entity("Abrisham.Common.Models.Command", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -43,7 +43,7 @@ namespace Abrisham.Database.Migrations
                     b.ToTable("Commands");
                 });
 
-            modelBuilder.Entity("Abrisham.Database.Models.Platform", b =>
+            modelBuilder.Entity("Abrisham.Common.Models.Platform", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -51,7 +51,6 @@ namespace Abrisham.Database.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("LicenseKey")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -63,9 +62,32 @@ namespace Abrisham.Database.Migrations
                     b.ToTable("Platforms");
                 });
 
-            modelBuilder.Entity("Abrisham.Database.Models.Command", b =>
+            modelBuilder.Entity("Abrisham.Common.Models.Result", b =>
                 {
-                    b.HasOne("Abrisham.Database.Models.Platform", "Platform")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CommandId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Message")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CommandId");
+
+                    b.ToTable("Results");
+                });
+
+            modelBuilder.Entity("Abrisham.Common.Models.Command", b =>
+                {
+                    b.HasOne("Abrisham.Common.Models.Platform", "Platform")
                         .WithMany("Commands")
                         .HasForeignKey("PlatformId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -74,7 +96,23 @@ namespace Abrisham.Database.Migrations
                     b.Navigation("Platform");
                 });
 
-            modelBuilder.Entity("Abrisham.Database.Models.Platform", b =>
+            modelBuilder.Entity("Abrisham.Common.Models.Result", b =>
+                {
+                    b.HasOne("Abrisham.Common.Models.Command", "Command")
+                        .WithMany("Results")
+                        .HasForeignKey("CommandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Command");
+                });
+
+            modelBuilder.Entity("Abrisham.Common.Models.Command", b =>
+                {
+                    b.Navigation("Results");
+                });
+
+            modelBuilder.Entity("Abrisham.Common.Models.Platform", b =>
                 {
                     b.Navigation("Commands");
                 });
